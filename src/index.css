@@ -1,0 +1,36 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-base:       #0f1117;
+  --bg-surface:    #1a1d27;
+  --bg-elevated:   #222536;
+  --border:        #2e3247;
+  --text-primary:  #f0f2f8;
+  --text-secondary:#8b90a7;
+  --accent:        #6c63ff;
+  --accent-hover:  #574fd6;
+  --danger:        #ef4444;
+  --success:       #22c55e;
+  --warning:       #f59e0b;
+  --trial:         #3b82f6;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: var(--bg-base);
+  color: var(--text-primary);
+  min-height: 100vh;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+input, select {
+  font-family: inherit;
+}
