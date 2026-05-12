@@ -1,58 +1,58 @@
 # Admin Dashboard
 
-> Role-based admin panel built with React + Vite — no UI libraries, just clean components and real logic.
+> Painel administrativo com controle de acesso por perfil, construído com React + Vite — sem bibliotecas de UI, apenas componentes limpos e lógica real.
 
 [![React](https://img.shields.io/badge/React-18-61dafb?style=flat-square&logo=react&logoColor=white)](https://react.dev)
 [![Vite](https://img.shields.io/badge/Vite-5-646cff?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-f7df1e?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![License](https://img.shields.io/badge/license-MIT-22c55e?style=flat-square)](LICENSE)
 
-## Overview
+## Visão Geral
 
-Admin Dashboard is a frontend project simulating a real SaaS admin panel. It features a login system with two distinct roles — Admin and User — each with their own layout and permissions. Built entirely with React and CSS variables, no external UI libraries.
+Admin Dashboard é um projeto frontend que simula um painel administrativo real de SaaS. Possui sistema de login com dois perfis distintos — Admin e Usuário — cada um com seu próprio layout e permissões. Construído inteiramente com React e variáveis CSS, sem bibliotecas externas de UI.
 
-Part of a personal challenge: **20 projects in 20 days** covering Backend, Frontend, Data Science, DevOps, Security and AI.
+Parte de um desafio pessoal: **20 projetos em 20 dias** cobrindo Backend, Frontend, Data Science, DevOps, Segurança e IA.
 
-## Features
+## Funcionalidades
 
-- Authentication — credential-based login with role detection
-- Admin Panel — full CRUD (add, edit, delete) via modal forms
-- User Panel — read-only dashboard with profile editing
-- KPI Cards — live metrics: active users, trials, churned, MRR
-- Filters — search by name/email + status dropdown
-- Pagination — 8 users per page
-- Export CSV — download complete user list
-- Dark Theme — consistent design system via CSS custom properties
+- Autenticação — login com detecção de perfil (admin/usuário)
+- Painel Admin — CRUD completo (adicionar, editar, excluir) via modais
+- Painel Usuário — visualização somente leitura com edição de perfil
+- Cards de KPI — métricas em tempo real: ativos, trials, churned, MRR
+- Filtros — busca por nome/email e filtro por status
+- Paginação — 8 usuários por página
+- Exportar CSV — download da lista completa de usuários
+- Tema Dark — sistema de design consistente com variáveis CSS
 
-## Tech Stack
+## Tecnologias
 
-| Layer | Technology |
-|-------|-----------|
+| Camada | Tecnologia |
+|--------|-----------|
 | Framework | React 18 |
 | Bundler | Vite 5 |
-| Language | JavaScript ES6+ |
-| Styling | CSS Variables (no UI lib) |
-| Data | JSON mock |
+| Linguagem | JavaScript ES6+ |
+| Estilização | CSS Variables (sem lib de UI) |
+| Dados | JSON mock |
 
-## Getting Started
+## Como Rodar
 
-Clone the repository and install dependencies:
+Clone o repositório e instale as dependências:
 
     git clone https://github.com/Felipe-Coelho-Terossi/Admin-Dashboard.git
     cd Admin-Dashboard
     npm install
     npm run dev
 
-Open http://localhost:5173 in your browser.
+Acesse http://localhost:5173 no navegador.
 
-## Test Credentials
+## Credenciais de Teste
 
-| Role  | Email               | Password |
-|-------|---------------------|----------|
-| Admin | admin@dashboard.com | admin123 |
-| User  | user@dashboard.com  | user123  |
+| Perfil  | Email               | Senha    |
+|---------|---------------------|----------|
+| Admin   | admin@dashboard.com | admin123 |
+| Usuário | user@dashboard.com  | user123  |
 
-## Project Structure
+## Estrutura do Projeto
 
     src/
     ├── components/
@@ -76,9 +76,9 @@ Open http://localhost:5173 in your browser.
     ├── App.jsx
     └── index.css
 
-## Author
+## Autor
 
 Felipe Coelho Terossi
-Computer Information Systems — Unicamp, 3rd semester
+Sistemas de Informação — Unicamp, 3º semestre
 
 https://github.com/Felipe-Coelho-Terossi
