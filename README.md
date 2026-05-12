@@ -7,6 +7,7 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-f7df1e?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![License](https://img.shields.io/badge/license-MIT-22c55e?style=flat-square)](LICENSE)
 
+🔗 Acesse a aplicação: https://admin-dashboard-one-psi-17.vercel.app
 ## Visão Geral
 
 Admin Dashboard é um projeto frontend que simula um painel administrativo real de SaaS. Possui sistema de login com dois perfis distintos — Admin e Usuário — cada um com seu próprio layout e permissões. Construído inteiramente com React e variáveis CSS, sem bibliotecas externas de UI.
