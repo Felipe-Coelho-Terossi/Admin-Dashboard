@@ -1,12 +1,11 @@
-```markdown
 # Admin Dashboard
 
 > Role-based admin panel built with React + Vite — no UI libraries, just clean components and real logic.
 
-![React](https://img.shields.io/badge/React-18-61dafb?style=flat&logo=react)
-![Vite](https://img.shields.io/badge/Vite-5-646cff?style=flat&logo=vite)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-f7df1e?style=flat&logo=javascript)
-![License](https://img.shields.io/badge/license-MIT-green?style=flat)
+[![React](https://img.shields.io/badge/React-18-61dafb?style=flat-square&logo=react&logoColor=white)](https://react.dev)
+[![Vite](https://img.shields.io/badge/Vite-5-646cff?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-f7df1e?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![License](https://img.shields.io/badge/license-MIT-22c55e?style=flat-square)](LICENSE)
 
 ## Overview
 
@@ -16,14 +15,14 @@ Part of a personal challenge: **20 projects in 20 days** covering Backend, Front
 
 ## Features
 
-- 🔐 **Authentication** — credential-based login with role detection
-- 👑 **Admin Panel** — full CRUD (add, edit, delete) via modal forms
-- 👤 **User Panel** — read-only dashboard with profile editing
-- 📊 **KPI Cards** — live metrics: active users, trials, churned, MRR
-- 🔍 **Filters** — search by name/email + status dropdown
-- 📄 **Pagination** — 8 users per page
-- 📥 **Export CSV** — download complete user list
-- 🌑 **Dark Theme** — consistent design system via CSS custom properties
+- Authentication — credential-based login with role detection
+- Admin Panel — full CRUD (add, edit, delete) via modal forms
+- User Panel — read-only dashboard with profile editing
+- KPI Cards — live metrics: active users, trials, churned, MRR
+- Filters — search by name/email + status dropdown
+- Pagination — 8 users per page
+- Export CSV — download complete user list
+- Dark Theme — consistent design system via CSS custom properties
 
 ## Tech Stack
 
@@ -37,19 +36,14 @@ Part of a personal challenge: **20 projects in 20 days** covering Backend, Front
 
 ## Getting Started
 
-```bash
-# Clone the repository
-git clone https://github.com/Felipe-Coelho-Terossi/Admin-Dashboard.git
-cd Admin-Dashboard
+Clone the repository and install dependencies:
 
-# Install dependencies
-npm install
+    git clone https://github.com/Felipe-Coelho-Terossi/Admin-Dashboard.git
+    cd Admin-Dashboard
+    npm install
+    npm run dev
 
-# Start development server
-npm run dev
-```
-
-Open [http://localhost:5173](http://localhost:5173) in your browser.
+Open http://localhost:5173 in your browser.
 
 ## Test Credentials
 
@@ -60,33 +54,31 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ## Project Structure
 
-```
-src/
-├── components/
-│   ├── Filters.jsx       # Search + status dropdown
-│   ├── KPICard.jsx       # Metric card component
-│   ├── Modal.jsx         # Reusable modal wrapper
-│   ├── Navbar.jsx        # Top navigation bar
-│   ├── Pagination.jsx    # Page controls
-│   └── UserTable.jsx     # Data table with optional admin actions
-├── data/
-│   └── users.json        # Mock dataset (30 SaaS users)
-├── hooks/
-│   ├── useAuth.js        # Login, logout, role management
-│   └── useUsers.js       # Filtering, pagination, CRUD logic
-├── pages/
-│   ├── AdminDashboard.jsx
-│   ├── Login.jsx
-│   └── UserDashboard.jsx
-├── utils/
-│   └── exportCSV.js      # CSV generation and download
-├── App.jsx               # Route logic based on role
-└── index.css             # Global reset + CSS design system
-```
+    src/
+    ├── components/
+    │   ├── Filters.jsx
+    │   ├── KPICard.jsx
+    │   ├── Modal.jsx
+    │   ├── Navbar.jsx
+    │   ├── Pagination.jsx
+    │   └── UserTable.jsx
+    ├── data/
+    │   └── users.json
+    ├── hooks/
+    │   ├── useAuth.js
+    │   └── useUsers.js
+    ├── pages/
+    │   ├── AdminDashboard.jsx
+    │   ├── Login.jsx
+    │   └── UserDashboard.jsx
+    ├── utils/
+    │   └── exportCSV.js
+    ├── App.jsx
+    └── index.css
 
 ## Author
 
-**Felipe Coelho Terossi**
+Felipe Coelho Terossi
 Computer Information Systems — Unicamp, 3rd semester
 
-[GitHub](https://github.com/Felipe-Coelho-Terossi)
+https://github.com/Felipe-Coelho-Terossi
